@@ -1,0 +1,61 @@
+#corpo{
+    width: 80%;
+    height: 90vh;
+    background-color: brown;
+    padding: 5px;
+    margin-left: 10%;
+}
+#corpo #topo{
+    width: 100%;
+    background-color: blue ;
+    height: 20%;
+    float: left;
+}
+#corpo #topo h1{
+    color: white;
+    text-align: center;
+    font-family: verdana;
+}
+#corpo #topo #btnmenu{
+    display: none;
+}
+#corpo #menu{
+    background-color: aqua;
+    width: 30%;
+    height: 80%;
+    float: left;
+}
+#corpo #conteudo{
+    background-color: blueviolet;
+    width: 70%;
+    height: 80%;
+    float: left;
+    
+}
+
+@media screen and (max-width: 420px) and (min-width:0px) {
+  
+body{
+    margin:0;
+    padding:0;
+}
+#corpo{
+    width: 80%;
+    height: 100vh;
+    margin-left: 10%;
+    box-sizing: border-box;
+}
+#corpo #topo #btnmenu{
+    display: block;
+}
+#corpo #menu{
+    display: none;
+}
+
+#corpo #conteudo{
+    width:100%;
+    background-color: blueviolet;
+}
+
+}
+
